@@ -1,0 +1,72 @@
+body{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Cuadro-padre{
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Para{
+    text-align: center;
+}
+.foto-maga{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    object-position: top;
+}
+.intro{
+  text-align: center;
+  color: rgb(143, 6, 6);
+}
+.p1{
+    text-align: center;
+    color: rgb(143, 6, 6);
+}
+.video{
+    border: 40%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+.video-txt{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.cuadro-v{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.cuadro-vdo{
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 255, 255);
+}
+.boton-personalizado {
+    /* Estilos de Botón */
+    display: inline-block; /* Permite aplicar padding y dimensiones */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #f700ff; /* Color de fondo (azul) */
+    color: white; /* Color del texto */
+    text-align: center;
+    text-decoration: none; /* Elimina el subrayado por defecto del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    /* Efecto al pasar el ratón */
+    transition: background-color 0.3s;
+}
+
+.boton-personalizado:hover {
+    background-color: #470c41; /* Un azul más oscuro al pasar el ratón */
+}
